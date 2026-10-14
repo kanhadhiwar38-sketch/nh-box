@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Exposes the public Movies/NHSeries folder (where DownloadService saves
+  files, including the downloaded update APK) to the FileProvider so it
+  can be safely shared with the system package installer.
+-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="nh_movies_downloads" path="Movies/NHSeries/" />
+</paths>
