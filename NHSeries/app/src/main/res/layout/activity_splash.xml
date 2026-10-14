@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center" android:orientation="vertical" android:gravity="center">
+        <TextView android:id="@+id/splash_logo"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Netflix" android:textSize="48sp" android:textStyle="bold"
+            android:fontFamily="monospace" android:textColor="@color/logo_color" android:letterSpacing="0.20"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="2026" android:textSize="11sp" android:fontFamily="monospace"
+            android:textColor="@color/tagline_dim" android:letterSpacing="0.35"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:orientation="horizontal">
+            <View android:layout_width="10dp" android:layout_height="10dp" android:layout_margin="5dp" android:background="@drawable/dot_1"/>
+            <View android:layout_width="10dp" android:layout_height="10dp" android:layout_margin="5dp" android:background="@drawable/dot_2"/>
+            <View android:layout_width="10dp" android:layout_height="10dp" android:layout_margin="5dp" android:background="@drawable/dot_3"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
